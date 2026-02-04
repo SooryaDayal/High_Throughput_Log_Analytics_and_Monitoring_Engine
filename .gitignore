@@ -1,0 +1,21 @@
+# Secret credentials
+.env
+
+# Python virtual environment (your 'gt1' folder)
+gt1/
+venv/
+env/
+
+# Python cache files (generated automatically)
+__pycache__/
+*.pyc
+*.py[cod]
+.vscode/  
+
+# Log files (so you don't upload your test logs)
+data/*.log
+*.log
+
+# Local Data
+realtime_logs.csv
+backend/data/*.log
